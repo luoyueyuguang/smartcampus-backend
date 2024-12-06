@@ -1,9 +1,129 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="iO1TZI7ypp53l3gajb1y">
-    <mxGraphModel>
+    <mxGraphModel dx="1461" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-1" value="智慧校园" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-2" value="登录子系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-3" value="选课子系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-4" value="成绩查询子系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-6" value="教师登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-7" value="学生登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-8" value="管理员登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="360" as="sourcePoint" />
+            <mxPoint x="200" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+            <mxPoint x="80" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xXYu8xTDoRu-JTAxSeLM-7" target="xXYu8xTDoRu-JTAxSeLM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="410" as="sourcePoint" />
+            <mxPoint x="150" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="410" as="sourcePoint" />
+            <mxPoint x="200" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309.5" y="410" as="sourcePoint" />
+            <mxPoint x="309.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="360" as="sourcePoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="360" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="410" as="sourcePoint" />
+            <mxPoint x="240" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="410" as="sourcePoint" />
+            <mxPoint x="490" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xXYu8xTDoRu-JTAxSeLM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="290" as="sourcePoint" />
+            <mxPoint x="310" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="260" as="sourcePoint" />
+            <mxPoint x="490" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-28" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xXYu8xTDoRu-JTAxSeLM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="310" as="sourcePoint" />
+            <mxPoint x="140" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-29" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xXYu8xTDoRu-JTAxSeLM-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="310" as="sourcePoint" />
+            <mxPoint x="490" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-31" value="查询选课信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-32" value="查询选课教室" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-33" value="查询课程学分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xXYu8xTDoRu-JTAxSeLM-34" value="查询课程成绩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
