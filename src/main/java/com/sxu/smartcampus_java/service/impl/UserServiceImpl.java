@@ -29,6 +29,13 @@ public class UserServiceImpl implements UserService {
         if (userMapper.findById(user.getUserId()) != null) {
             throw new RuntimeException("User already exists with ID: " + user.getUserId());
         }
+        if(user.getUserId() == null){
+            long millis = System.currentTimeMillis();
+            while (userMapper.findById(String.valueOf(millis)) != null) {
+                millis++;
+            }
+            user.setUserId(String.valueOf(millis));
+        }
         userMapper.insert(user);
     }
 

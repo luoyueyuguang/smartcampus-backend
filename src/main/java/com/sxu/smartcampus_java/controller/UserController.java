@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/users")
 public class UserController {
@@ -26,7 +27,8 @@ public class UserController {
         return ResponseEntity.ok(userService.findAll());
     }
 
-    @PostMapping("/{userId}")
+    @CrossOrigin(origins = "*")
+    @PostMapping()
     public ResponseEntity<String> createUser(@RequestBody User user) {
         userService.createUser(user);
         return ResponseEntity.ok("User created successfully");

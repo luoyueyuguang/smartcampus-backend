@@ -2,6 +2,7 @@ package com.sxu.smartcampus_java.mapper;
 
 import com.sxu.smartcampus_java.entity.Score;
 import org.apache.ibatis.annotations.*;
+import org.springframework.data.jpa.repository.query.Procedure;
 
 import java.util.List;
 
